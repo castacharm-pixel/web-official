@@ -7,7 +7,9 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
-    "contact": "Contact"
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "header": {
     "name": "Cast a charm",
@@ -131,8 +133,6 @@
   "footer": {
     "description": "A full-service marketing agency driving business growth with next-level strategy — blending creativity, data, and modern technology for exceptional, measurable results.",
     "socialLabel": "Official Social Channels",
-    "socialSubtitle": "• Follow us for the latest updates and marketing content",
-    "socialHandle": "@castacharm",
     "copyright": "© 2025 Cast a Charm Agency. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",

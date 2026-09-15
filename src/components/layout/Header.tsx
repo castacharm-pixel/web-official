@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
+import { MobileNav } from "./MobileNav";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -30,7 +31,7 @@ export function Header() {
             />
           </div>
           <div className="flex flex-col min-w-0">
-            <span className="font-heading font-extrabold text-base sm:text-xl tracking-tight text-slate-900 dark:text-white group-hover:text-brand-purple dark:group-hover:text-purple-400 transition-colors whitespace-nowrap">
+            <span className="font-heading font-extrabold text-base sm:text-xl tracking-tight text-slate-900 dark:text-white group-hover:text-brand-purple dark:group-hover:text-purple-400 transition-colors truncate">
               {tHeader("name")}
             </span>
             <span className="hidden sm:block text-[10px] uppercase font-bold tracking-widest bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 bg-clip-text text-transparent -mt-1 whitespace-nowrap">
@@ -56,9 +57,14 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3.5">
+        <div className="flex items-center gap-2 sm:gap-3.5 shrink-0">
           <LanguageSwitcher />
           <ThemeToggle />
+          <MobileNav
+            links={navLinks}
+            openLabel={t("openMenu")}
+            closeLabel={t("closeMenu")}
+          />
         </div>
       </div>
     </header>

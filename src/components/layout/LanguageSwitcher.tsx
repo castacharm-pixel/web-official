@@ -15,15 +15,15 @@ export function LanguageSwitcher() {
   }
 
   return (
-    <div className="inline-flex items-center gap-1.5 p-1 bg-slate-50/90 dark:bg-slate-800/80 border border-slate-200/60 dark:border-slate-700/60 rounded-full shadow-inner text-xs font-semibold backdrop-blur-md">
-      <span className="material-symbols-outlined text-slate-400 dark:text-slate-500 text-base pl-1" aria-hidden="true">
+    <div className="inline-flex items-center gap-1 sm:gap-1.5 p-1 bg-slate-50/90 dark:bg-slate-800/80 border border-slate-200/60 dark:border-slate-700/60 rounded-full shadow-inner text-xs font-semibold backdrop-blur-md">
+      <span className="hidden sm:inline-flex material-symbols-outlined text-slate-400 dark:text-slate-500 text-base pl-1" aria-hidden="true">
         language
       </span>
       <button
         type="button"
         onClick={() => switchTo("th")}
         aria-label={t("switchToThai")}
-        className={`px-2.5 py-1 rounded-full transition-all ${
+        className={`px-2 sm:px-2.5 py-1 rounded-full transition-all ${
           locale === "th"
             ? "bg-white dark:bg-slate-700 text-brand-purple dark:text-purple-300 shadow-sm"
             : "text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
@@ -36,7 +36,7 @@ export function LanguageSwitcher() {
         type="button"
         onClick={() => switchTo("en")}
         aria-label={t("switchToEnglish")}
-        className={`px-2.5 py-1 rounded-full transition-all ${
+        className={`px-2 sm:px-2.5 py-1 rounded-full transition-all ${
           locale === "en"
             ? "bg-white dark:bg-slate-700 text-brand-purple dark:text-purple-300 shadow-sm"
             : "text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"

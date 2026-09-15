@@ -7,7 +7,9 @@
     "home": "หน้าแรก",
     "about": "เกี่ยวกับเรา",
     "services": "บริการของเรา",
-    "contact": "ติดต่อเรา"
+    "contact": "ติดต่อเรา",
+    "openMenu": "เปิดเมนู",
+    "closeMenu": "ปิดเมนู"
   },
   "header": {
     "name": "Cast a charm",
@@ -131,8 +133,6 @@
   "footer": {
     "description": "Full-Service Marketing Agency ขับเคลื่อนการเติบโตของธุรกิจด้วยกลยุทธ์เหนือระดับ ผสานความคิดสร้างสรรค์ ดาต้า และเทคโนโลยีทันสมัย เพื่อผลลัพธ์ที่เป็นเลิศและวัดผลได้จริง",
     "socialLabel": "Official Social Channels",
-    "socialSubtitle": "• ติดตามอัปเดตและคอนเทนต์การตลาดล่าสุด",
-    "socialHandle": "@castacharm",
     "copyright": "© 2025 Cast a Charm Agency. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",

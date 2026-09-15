@@ -17,7 +17,7 @@ export function Footer() {
   return (
     <footer className="w-full bg-white dark:bg-slate-950 border-t border-slate-200/80 dark:border-slate-800 text-slate-600 dark:text-slate-400">
       <div className="w-full max-w-7xl mx-auto px-6 sm:px-8 pt-16 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12">
           <div className="lg:col-span-4 flex flex-col gap-5">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-2xl overflow-hidden border border-purple-100 dark:border-purple-500/20 shadow-sm flex items-center justify-center p-1 bg-white">
@@ -44,17 +44,9 @@ export function Footer() {
           </div>
 
           <div className="lg:col-span-8 flex flex-col gap-5">
-            <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400">
-                  {t("socialLabel")}
-                </span>
-                <span className="text-[11px] text-slate-400 dark:text-slate-500 font-normal">
-                  {t("socialSubtitle")}
-                </span>
-              </div>
-              <span className="text-[11px] font-semibold text-slate-500 dark:text-slate-400">
-                {t("socialHandle")}
+            <div className="flex items-center border-b border-slate-100 dark:border-slate-800 pb-3">
+              <span className="text-xs font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400">
+                {t("socialLabel")}
               </span>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">

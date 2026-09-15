@@ -63,22 +63,22 @@ export function About() {
 
         {/* Performance matrix panel */}
         <div className="lg:col-span-6 relative">
-          <div className="relative rounded-3xl bg-white dark:bg-slate-900 p-7 sm:p-9 border border-slate-100 dark:border-slate-800 shadow-xl shadow-slate-200/50 dark:shadow-black/20 flex flex-col gap-6">
-            <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-4">
-              <div className="flex items-center gap-2">
-                <div className="w-2.5 h-2.5 rounded-full bg-red-400" />
-                <div className="w-2.5 h-2.5 rounded-full bg-amber-400" />
-                <div className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
-                <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 pl-2">
+          <div className="relative rounded-3xl bg-white dark:bg-slate-900 p-5 sm:p-7 lg:p-9 border border-slate-100 dark:border-slate-800 shadow-xl shadow-slate-200/50 dark:shadow-black/20 flex flex-col gap-6">
+            <div className="flex items-center justify-between gap-2 border-b border-slate-100 dark:border-slate-800 pb-4">
+              <div className="flex items-center gap-2 min-w-0">
+                <div className="w-2.5 h-2.5 shrink-0 rounded-full bg-red-400" />
+                <div className="w-2.5 h-2.5 shrink-0 rounded-full bg-amber-400" />
+                <div className="w-2.5 h-2.5 shrink-0 rounded-full bg-emerald-400" />
+                <span className="hidden sm:block truncate text-xs font-semibold text-slate-500 dark:text-slate-400 pl-2">
                   {t("panel.windowLabel")}
                 </span>
               </div>
-              <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-purple-50 dark:bg-purple-500/10 text-purple-700 dark:text-purple-300 border border-purple-100 dark:border-purple-500/20">
+              <span className="shrink-0 whitespace-nowrap text-[11px] font-bold px-2.5 py-1 rounded-full bg-purple-50 dark:bg-purple-500/10 text-purple-700 dark:text-purple-300 border border-purple-100 dark:border-purple-500/20">
                 {t("panel.badge")}
               </span>
             </div>
 
-            <div className="w-full bg-[#FAFAFE] dark:bg-slate-950 rounded-2xl p-6 border border-slate-100 dark:border-slate-800 flex flex-col gap-4">
+            <div className="w-full bg-[#FAFAFE] dark:bg-slate-950 rounded-2xl p-4 sm:p-6 border border-slate-100 dark:border-slate-800 flex flex-col gap-4">
               <div className="flex justify-between items-baseline">
                 <span className="text-sm font-medium text-slate-500 dark:text-slate-400">
                   {t("panel.metricLabel")}
@@ -110,16 +110,16 @@ export function About() {
                 <circle cx="500" cy="5" fill="#F97316" r="6" />
               </svg>
 
-              <div className="grid grid-cols-3 gap-3 pt-2 text-center">
+              <div className="grid grid-cols-3 gap-1.5 sm:gap-3 pt-2 text-center">
                 {stats.map((stat) => (
                   <div
                     key={stat.label}
-                    className="bg-white dark:bg-slate-900 p-3 rounded-xl border border-slate-100 dark:border-slate-800 shadow-sm"
+                    className="min-w-0 bg-white dark:bg-slate-900 p-1.5 sm:p-3 rounded-xl border border-slate-100 dark:border-slate-800 shadow-sm"
                   >
-                    <span className="text-xs text-slate-400 dark:text-slate-500 block font-medium">
+                    <span className="text-[10px] sm:text-xs text-slate-400 dark:text-slate-500 block font-medium truncate">
                       {stat.label}
                     </span>
-                    <span className={`font-heading font-bold text-base ${stat.color}`}>
+                    <span className={`font-heading font-bold text-xs sm:text-base truncate block ${stat.color}`}>
                       {stat.value}
                     </span>
                   </div>

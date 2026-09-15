@@ -49,7 +49,7 @@ export function LeadCapture() {
               <p className="text-sm text-slate-600 dark:text-slate-400">{t("formSubtitle")}</p>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 w-full pt-1">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full pt-1">
               <a
                 href="https://line.me"
                 target="_blank"
@@ -76,7 +76,7 @@ export function LeadCapture() {
                 <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 mb-0.5">
                   {t("email.label")}
                 </span>
-                <span className="font-heading text-sm font-bold text-slate-900 dark:text-white group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">
+                <span className="font-heading text-sm font-bold text-slate-900 dark:text-white group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors break-all">
                   {t("email.value")}
                 </span>
               </a>
