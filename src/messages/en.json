@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Cast a Charm | Full-Service Marketing Agency",
+    "description": "Cast a Charm is your full-service marketing partner — strategy, content, performance ads, SEO, and web development to drive real, measurable growth."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "header": {
+    "name": "Cast a charm",
+    "tagline": "Full-Service Marketing"
+  },
+  "theme": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+  "language": {
+    "switchToThai": "เลือกภาษาไทย",
+    "switchToEnglish": "Switch to English"
+  },
+  "hero": {
+    "badge": "CAST A CHARM • 360° FULL-SERVICE MARKETING PARTNER",
+    "headline": "Drive exponential growth for your business with full-circle marketing,",
+    "headlineHighlight": "All-In-One",
+    "subheadline": "We're <strong>Cast a Charm</strong>, a partner that goes all-in — strategy, content, performance ads, SEO, and web development — turning traffic into real profit and sustainable sales growth.",
+    "cta": "Get a Free Consultation"
+  },
+  "about": {
+    "eyebrow": "Why Cast a Charm?",
+    "title": "We're not just an agency for hire —",
+    "titleHighlight": "we're a growth partner who gets hands-on",
+    "body": "In today's competitive market, siloed marketing efforts can't deliver sustainable results. At <strong>Cast a Charm</strong>, we blend deep strategy, data, and top-tier creativity to push your business toward industry leadership.",
+    "feature1": {
+      "title": "Full-Funnel Growth",
+      "body": "We cover every stage — from the first brand impression to closing the sale and driving repeat purchases."
+    },
+    "feature2": {
+      "title": "Data-Driven & Creative",
+      "body": "Decisions backed by real numbers, paired with scroll-stopping creative ideas."
+    },
+    "panel": {
+      "windowLabel": "Cast a Charm • Performance Matrix",
+      "badge": "REAL-TIME DATA",
+      "metricLabel": "Campaign Revenue Index",
+      "metricValue": "+412.8% YoY",
+      "stat1Label": "Total Leads",
+      "stat1Value": "14,890",
+      "stat2Label": "Conv. Rate",
+      "stat2Value": "8.64%",
+      "stat3Label": "ROAS",
+      "stat3Value": "6.4x",
+      "footerTitle": "Dedicated Growth Team",
+      "footerBody": "A hands-on team that feels like an in-house marketing department for your company."
+    }
+  },
+  "services": {
+    "eyebrow": "360° Services",
+    "title": "9 Core Services to Unlock Every Dimension of Growth",
+    "subtitle": "Pick a service à la carte, or combine all 9 for our most powerful results.",
+    "items": [
+      {
+        "tag": "01 / FOUNDATION",
+        "title": "Digital Strategy & Planning",
+        "body": "We build the strategic blueprint — competitor analysis and market positioning for a lasting edge."
+      },
+      {
+        "tag": "02 / VISUALS",
+        "title": "Content & Creative Production",
+        "body": "Short-form video for Reels/TikTok, scroll-stopping ad graphics, and storytelling content that turns viewers into loyal fans."
+      },
+      {
+        "tag": "03 / ACQUISITION",
+        "title": "Performance Marketing & Ads",
+        "body": "Precision ad campaigns across Meta, TikTok, and Google Ads with A/B testing and retargeting to maximize ROAS."
+      },
+      {
+        "tag": "04 / ORGANIC",
+        "title": "Organic Traffic & SEO",
+        "body": "Rank on Google's first page through keyword research, technical SEO, and quality content for sustainable free traffic."
+      },
+      {
+        "tag": "05 / RETENTION",
+        "title": "Social Media Management",
+        "body": "End-to-end page management, content calendars, engagement-driving posts, and a 24/7 chat team closing sales."
+      },
+      {
+        "tag": "06 / INFRASTRUCTURE",
+        "title": "Website & MarTech Solutions",
+        "body": "Fast landing pages and e-commerce sites, conversion rate optimization (CRO), and full CRM integration."
+      },
+      {
+        "tag": "07 / INFLUENCE & AMPLIFICATION",
+        "title": "Influencer & KOL Marketing Management",
+        "body": "Sourcing and matching influencers, celebrities, and micro & macro KOLs to your target audience, with contract management and end-to-end sales tracking."
+      },
+      {
+        "tag": "08 / INDUSTRIAL & PACKAGING",
+        "title": "Product & Packaging Design",
+        "body": "Packaging and product design that stands out on shelf, reinforces brand identity, and adds marketing value."
+      },
+      {
+        "tag": "09 / EXPERIENTIAL",
+        "title": "Event & Brand Activation",
+        "body": "Launch events, exhibition booths, and roadshows that connect customers with your brand in person."
+      }
+    ]
+  },
+  "lead": {
+    "eyebrow": "GET STARTED TODAY",
+    "title": "Ready to unlock growth for your business?",
+    "benefitsLabel": "What you'll get from a free consultation",
+    "benefits": [
+      "An in-depth analysis of your online marketing position and competitors",
+      "Strategy and channel recommendations tailored for the best ROAS for your business",
+      "A clear, transparent proposal and quote — no hidden costs"
+    ],
+    "formTitle": "Get a Free Consultation & Quote",
+    "formSubtitle": "Reach our team of experts directly through a quick channel, or send your details and we'll get back to you.",
+    "line": {
+      "label": "LINE Official",
+      "value": "@castacharm"
+    },
+    "email": {
+      "label": "Email Us",
+      "value": "cast.a.charm@gmail.com"
+    }
+  },
+  "footer": {
+    "description": "A full-service marketing agency driving business growth with next-level strategy — blending creativity, data, and modern technology for exceptional, measurable results.",
+    "socialLabel": "Official Social Channels",
+    "socialSubtitle": "• Follow us for the latest updates and marketing content",
+    "socialHandle": "@castacharm",
+    "copyright": "© 2025 Cast a Charm Agency. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Policy"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Cast a Charm | Full-Service Marketing Agency",
+    "description": "Cast a Charm พาร์ทเนอร์การตลาดครบวงจร วางกลยุทธ์ คอนเทนต์ ยิงแอด SEO และพัฒนาเว็บไซต์ เพื่อผลักดันธุรกิจของคุณให้เติบโตแบบก้าวกระโดด"
+  },
+  "nav": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับเรา",
+    "services": "บริการของเรา",
+    "contact": "ติดต่อเรา"
+  },
+  "header": {
+    "name": "Cast a charm",
+    "tagline": "Full-Service Marketing"
+  },
+  "theme": {
+    "switchToLight": "สลับเป็นโหมดสว่าง",
+    "switchToDark": "สลับเป็นโหมดมืด"
+  },
+  "language": {
+    "switchToThai": "เลือกภาษาไทย",
+    "switchToEnglish": "Switch to English"
+  },
+  "hero": {
+    "badge": "CAST A CHARM • 360° FULL-SERVICE MARKETING PARTNER",
+    "headline": "ขับเคลื่อนธุรกิจของคุณให้เติบโตแบบก้าวกระโดด ด้วยการตลาดครบวงจร",
+    "headlineHighlight": "All-In-One",
+    "subheadline": "เราคือ <strong>Cast a Charm</strong> พาร์ทเนอร์ที่พร้อมทุ่มสุดตัว วางกลยุทธ์ คอนเทนต์ ยิงแอด SEO และพัฒนาเว็บไซต์ เพื่อเปลี่ยนยอดเข้าชมเป็นผลกำไรและยอดขายที่เติบโตจริง",
+    "cta": "ปรึกษาผู้เชี่ยวชาญฟรี"
+  },
+  "about": {
+    "eyebrow": "ทำไมต้อง Cast a Charm?",
+    "title": "เราไม่ใช่แค่ Agency รับจ้าง",
+    "titleHighlight": "แต่คือพาร์ทเนอร์การเติบโตที่ลงมือทำจริง",
+    "body": "ในยุคที่ตลาดแข่งขันสูง การทำการตลาดแบบแยกส่วนไม่สามารถสร้างผลกำไรได้อย่างยั่งยืน ที่ <strong>Cast a Charm</strong> เราผสานกลยุทธ์เชิงลึก ข้อมูลดาต้า และความคิดสร้างสรรค์ชั้นยอดเข้าด้วยกัน เพื่อผลักดันให้ธุรกิจของคุณก้าวสู่ผู้นำในอุตสาหกรรม",
+    "feature1": {
+      "title": "Full-Funnel Growth",
+      "body": "ดูแลครอบคลุมตั้งแต่วินาทีที่ลูกค้าเห็นแบรนด์ จนถึงการปิดการขายและซื้อซ้ำ"
+    },
+    "feature2": {
+      "title": "Data-Driven & Creative",
+      "body": "ตัดสินใจจากตัวเลขสถิติ ควบคู่กับไอเดียสร้างสรรค์ที่หยุดทุกสายตา"
+    },
+    "panel": {
+      "windowLabel": "Cast a Charm • Performance Matrix",
+      "badge": "REAL-TIME DATA",
+      "metricLabel": "Campaign Revenue Index",
+      "metricValue": "+412.8% YoY",
+      "stat1Label": "Total Leads",
+      "stat1Value": "14,890",
+      "stat2Label": "Conv. Rate",
+      "stat2Value": "8.64%",
+      "stat3Label": "ROAS",
+      "stat3Value": "6.4x",
+      "footerTitle": "Dedicated Growth Team",
+      "footerBody": "ดูแลอย่างใกล้ชิด เสมือนทีมการตลาด In-house ประจำบริษัทคุณ"
+    }
+  },
+  "services": {
+    "eyebrow": "บริการครบวงจร (360° Services)",
+    "title": "9 บริการหลักเพื่อปลดล็อกทุกมิติการเติบโต",
+    "subtitle": "เลือกใช้บริการแบบแยกส่วนตามความต้องการ หรือผสานพลังครบทั้ง 9 ด้านเพื่อผลลัพธ์ที่ทรงพลังที่สุด",
+    "items": [
+      {
+        "tag": "01 / FOUNDATION",
+        "title": "Digital Strategy & Planning",
+        "body": "วางพิมพ์เขียวกลยุทธ์การตลาด วิเคราะห์คู่แข่ง หาตำแหน่งทางการตลาด (Positioning) เพื่อสร้างความได้เปรียบที่ยั่งยืน"
+      },
+      {
+        "tag": "02 / VISUALS",
+        "title": "Content & Creative Production",
+        "body": "ผลิตวิดีโอสั้น Reels/TikTok, กราฟิกโฆษณาสะดุดตา, และบทความสตอรี่เทลลิ่งที่เปลี่ยนผู้ชมให้กลายเป็นแฟนพันธุ์แท้"
+      },
+      {
+        "tag": "03 / ACQUISITION",
+        "title": "Performance Marketing & Ads",
+        "body": "ยิงแอดแม่นยำทุกแพลตฟอร์ม Meta, TikTok, Google Ads พร้อมระบบ A/B Testing และ Retargeting เพิ่มผลตอบแทน ROAS สูงสุด"
+      },
+      {
+        "tag": "04 / ORGANIC",
+        "title": "Organic Traffic & SEO",
+        "body": "ดันเว็บไซต์ขึ้นหน้าแรก Google ด้วยการวิเคราะห์ Keyword วางโครงสร้าง Technical SEO และเขียนบทความคุณภาพเพื่อทราฟฟิกฟรี"
+      },
+      {
+        "tag": "05 / RETENTION",
+        "title": "Social Media Management",
+        "body": "ดูแลแฟนเพจทุกช่องทางแบบเบ็ดเสร็จ วางตารางโพสต์ คอนเทนต์สร้างการมีส่วนร่วม พร้อมทีมแอดมินปิดการขายในแชท 24/7"
+      },
+      {
+        "tag": "06 / INFRASTRUCTURE",
+        "title": "Website & MarTech Solutions",
+        "body": "สร้าง Landing Page และเว็บไซต์ E-Commerce โหลดไว ปรับ Conversion Rate Optimization (CRO) และผูกระบบ CRM ครบชุด"
+      },
+      {
+        "tag": "07 / INFLUENCE & AMPLIFICATION",
+        "title": "Influencer & KOL Marketing Management",
+        "body": "คัดสรรและจับคู่อินฟลูเอนเซอร์, ดารา, Micro & Macro KOLs ที่ตรงกลุ่มเป้าหมาย บริหารจัดการสัญญา และวัดผลยอดขายแบบ End-to-End"
+      },
+      {
+        "tag": "08 / INDUSTRIAL & PACKAGING",
+        "title": "Product & Packaging Design",
+        "body": "ออกแบบบรรจุภัณฑ์และรูปลักษณ์ผลิตภัณฑ์ให้โดดเด่นสะดุดตา เสริมอัตลักษณ์แบรนด์ เพิ่มมูลค่าทางการตลาด"
+      },
+      {
+        "tag": "09 / EXPERIENTIAL",
+        "title": "Event & Brand Activation",
+        "body": "จัดงานอีเวนต์ กิจกรรมเปิดตัว บูธแสดงสินค้า และ Roadshow เชื่อมต่อลูกค้าสัมผัสประสบการณ์ตรงกับแบรนด์"
+      }
+    ]
+  },
+  "lead": {
+    "eyebrow": "GET STARTED TODAY",
+    "title": "พร้อมปลดล็อกการเติบโตของธุรกิจคุณแล้วหรือยัง?",
+    "benefitsLabel": "สิ่งที่คุณจะได้รับจากการปรึกษา",
+    "benefits": [
+      "วิเคราะห์สถานะการตลาดออนไลน์และคู่แข่งแบบเจาะลึก",
+      "แนะนำกลยุทธ์และแชนแนลที่คุ้มค่า ROAS สูงสุดสำหรับธุรกิจคุณ",
+      "แผนงานพร้อมใบเสนอราคาที่โปร่งใส ชัดเจน ไม่มีค่าใช้จ่ายแอบแฝง"
+    ],
+    "formTitle": "ขอรับคำปรึกษาและใบเสนอราคาฟรี",
+    "formSubtitle": "ติดต่อทีมผู้เชี่ยวชาญได้โดยตรงผ่านช่องทางด่วน หรือส่งรายละเอียดเพื่อให้เราติดต่อกลับ",
+    "line": {
+      "label": "LINE Official",
+      "value": "@castacharm"
+    },
+    "email": {
+      "label": "ส่งอีเมล",
+      "value": "cast.a.charm@gmail.com"
+    }
+  },
+  "footer": {
+    "description": "Full-Service Marketing Agency ขับเคลื่อนการเติบโตของธุรกิจด้วยกลยุทธ์เหนือระดับ ผสานความคิดสร้างสรรค์ ดาต้า และเทคโนโลยีทันสมัย เพื่อผลลัพธ์ที่เป็นเลิศและวัดผลได้จริง",
+    "socialLabel": "Official Social Channels",
+    "socialSubtitle": "• ติดตามอัปเดตและคอนเทนต์การตลาดล่าสุด",
+    "socialHandle": "@castacharm",
+    "copyright": "© 2025 Cast a Charm Agency. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Policy"
+  }
+}
