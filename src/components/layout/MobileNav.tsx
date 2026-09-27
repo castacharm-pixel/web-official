@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useActiveSection, useIsHome, useSectionHref } from "./useActiveSection";
 
 type NavLink = {
   href: string;
   label: string;
-  current?: boolean;
 };
 
 export function MobileNav({
@@ -18,6 +18,9 @@ export function MobileNav({
   closeLabel: string;
 }) {
   const [open, setOpen] = useState(false);
+  const active = useActiveSection(links.map((link) => link.href.slice(1)));
+  const onHome = useIsHome();
+  const toHref = useSectionHref();
 
   useEffect(() => {
     if (!open) return;
@@ -65,11 +68,11 @@ export function MobileNav({
             {links.map((link) => (
               <a
                 key={link.href}
-                href={link.href}
+                href={toHref(link.href)}
                 onClick={() => setOpen(false)}
-                aria-current={link.current ? "page" : undefined}
+                aria-current={onHome && link.href === `#${active}` ? "location" : undefined}
                 className={
-                  link.current
+                  onHome && link.href === `#${active}`
                     ? "px-4 py-2.5 rounded-xl text-sm font-semibold text-brand-purple dark:text-purple-300 bg-purple-50 dark:bg-purple-500/10 transition-all"
                     : "px-4 py-2.5 rounded-xl text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-slate-800 transition-all"
                 }

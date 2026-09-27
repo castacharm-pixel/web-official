@@ -35,14 +35,6 @@
     "title": "We're not just an agency for hire —",
     "titleHighlight": "we're a growth partner who gets hands-on",
     "body": "In today's competitive market, siloed marketing efforts can't deliver sustainable results. At <strong>Cast a Charm</strong>, we blend deep strategy, data, and top-tier creativity to push your business toward industry leadership.",
-    "feature1": {
-      "title": "Full-Funnel Growth",
-      "body": "We cover every stage — from the first brand impression to closing the sale and driving repeat purchases."
-    },
-    "feature2": {
-      "title": "Data-Driven & Creative",
-      "body": "Decisions backed by real numbers, paired with scroll-stopping creative ideas."
-    },
     "panel": {
       "windowLabel": "Cast a Charm • Performance Matrix",
       "badge": "REAL-TIME DATA",
@@ -53,15 +45,12 @@
       "stat2Label": "Conv. Rate",
       "stat2Value": "8.64%",
       "stat3Label": "ROAS",
-      "stat3Value": "6.4x",
-      "footerTitle": "Dedicated Growth Team",
-      "footerBody": "A hands-on team that feels like an in-house marketing department for your company."
+      "stat3Value": "6.4x"
     }
   },
   "services": {
     "eyebrow": "360° Services",
     "title": "9 Core Services to Unlock Every Dimension of Growth",
-    "subtitle": "Pick a service à la carte, or combine all 9 for our most powerful results.",
     "items": [
       {
         "tag": "01 / FOUNDATION",
@@ -113,9 +102,7 @@
   "lead": {
     "eyebrow": "GET STARTED TODAY",
     "title": "Ready to unlock growth for your business?",
-    "benefitsLabel": "What you'll get from a free consultation",
     "benefits": [
-      "An in-depth analysis of your online marketing position and competitors",
       "Strategy and channel recommendations tailored for the best ROAS for your business",
       "A clear, transparent proposal and quote — no hidden costs"
     ],
@@ -137,5 +124,12 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookie": "Cookie Policy"
+  },
+  "legal": {
+    "eyebrow": "Legal",
+    "lastUpdated": "Last updated",
+    "contents": "Contents",
+    "backHome": "Back to home",
+    "nav": "Legal documents"
   }
 }

@@ -35,30 +35,6 @@ export function About() {
             })}
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-            <div className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 shadow-subtle flex flex-col gap-2 hover:border-purple-200 dark:hover:border-purple-500/40 transition-all">
-              <div className="w-11 h-11 rounded-2xl bg-purple-50 dark:bg-purple-500/10 border border-purple-100 dark:border-purple-500/20 flex items-center justify-center text-purple-600 dark:text-purple-400">
-                <span className="material-symbols-outlined text-2xl" aria-hidden="true">hub</span>
-              </div>
-              <h3 className="font-heading text-lg font-bold text-slate-900 dark:text-white">
-                {t("feature1.title")}
-              </h3>
-              <p className="text-sm text-slate-600 dark:text-slate-400 leading-normal">
-                {t("feature1.body")}
-              </p>
-            </div>
-            <div className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 shadow-subtle flex flex-col gap-2 hover:border-pink-200 dark:hover:border-pink-500/40 transition-all">
-              <div className="w-11 h-11 rounded-2xl bg-pink-50 dark:bg-pink-500/10 border border-pink-100 dark:border-pink-500/20 flex items-center justify-center text-pink-600 dark:text-pink-400">
-                <span className="material-symbols-outlined text-2xl" aria-hidden="true">query_stats</span>
-              </div>
-              <h3 className="font-heading text-lg font-bold text-slate-900 dark:text-white">
-                {t("feature2.title")}
-              </h3>
-              <p className="text-sm text-slate-600 dark:text-slate-400 leading-normal">
-                {t("feature2.body")}
-              </p>
-            </div>
-          </div>
         </div>
 
         {/* Performance matrix panel */}
@@ -88,26 +64,90 @@ export function About() {
                 </span>
               </div>
 
-              <svg className="w-full h-36" fill="none" preserveAspectRatio="none" viewBox="0 0 500 150">
+              <svg
+                className="w-full h-auto"
+                viewBox="0 0 500 260"
+                fill="none"
+                role="img"
+                aria-label="Marketing illustration"
+              >
                 <defs>
-                  <linearGradient id="chartGradLight" x1="0" x2="0" y1="0" y2="1">
-                    <stop offset="0%" stopColor="#7C3AED" stopOpacity="0.25" />
-                    <stop offset="100%" stopColor="#EC4899" stopOpacity="0" />
+                  <linearGradient id="mkBrand" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stopColor="#7C3AED" />
+                    <stop offset="60%" stopColor="#EC4899" />
+                    <stop offset="100%" stopColor="#F59E0B" />
+                  </linearGradient>
+                  <linearGradient id="mkSoft" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stopColor="#7C3AED" stopOpacity="0.16" />
+                    <stop offset="100%" stopColor="#EC4899" stopOpacity="0.06" />
+                  </linearGradient>
+                  <linearGradient id="mkHorn" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stopColor="#6D28D9" />
+                    <stop offset="100%" stopColor="#DB2777" />
                   </linearGradient>
                 </defs>
-                <path
-                  d="M0,130 C70,120 120,95 180,90 C240,85 280,45 350,35 C420,25 460,10 500,5 L500,150 L0,150 Z"
-                  fill="url(#chartGradLight)"
-                />
-                <path
-                  d="M0,130 C70,120 120,95 180,90 C240,85 280,45 350,35 C420,25 460,10 500,5"
-                  stroke="#7C3AED"
-                  strokeLinecap="round"
-                  strokeWidth="3.5"
-                />
-                <circle cx="180" cy="90" fill="#7C3AED" r="5" />
-                <circle cx="350" cy="35" fill="#EC4899" r="5" />
-                <circle cx="500" cy="5" fill="#F97316" r="6" />
+
+                {/* Backdrop blobs */}
+                <circle cx="250" cy="135" r="118" fill="url(#mkSoft)" />
+                <circle cx="95" cy="70" r="46" fill="#EC4899" fillOpacity="0.08" />
+                <circle cx="440" cy="60" r="40" fill="#F59E0B" fillOpacity="0.1" />
+
+                {/* Growth bars behind */}
+                <g opacity="0.9">
+                  <rect x="330" y="165" width="22" height="55" rx="6" fill="#7C3AED" fillOpacity="0.25" />
+                  <rect x="362" y="135" width="22" height="85" rx="6" fill="#7C3AED" fillOpacity="0.4" />
+                  <rect x="394" y="105" width="22" height="115" rx="6" fill="#EC4899" fillOpacity="0.55" />
+                  <rect x="426" y="75" width="22" height="145" rx="6" fill="url(#mkBrand)" />
+                  <path d="M326 150 L373 118 L405 90 L446 56" stroke="#F59E0B" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M434 54 L448 54 L448 68" stroke="#F59E0B" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                </g>
+
+                {/* Megaphone */}
+                <g transform="translate(-50 0) rotate(-14 200 150)">
+                  <rect x="112" y="128" width="38" height="46" rx="10" fill="#4C1D95" />
+                  <path d="M150 128 L250 88 Q262 84 262 96 L262 206 Q262 218 250 214 L150 174 Z" fill="url(#mkHorn)" />
+                  <ellipse cx="262" cy="151" rx="12" ry="60" fill="#F472B6" />
+                  <ellipse cx="262" cy="151" rx="6" ry="44" fill="#FBCFE8" fillOpacity="0.7" />
+                  <path d="M138 174 L150 214 Q153 222 162 219 L172 215 Q179 212 176 204 L166 178" fill="#5B21B6" />
+                  <path d="M170 132 L240 104" stroke="#fff" strokeOpacity="0.35" strokeWidth="5" strokeLinecap="round" />
+                </g>
+
+                {/* Sound waves */}
+                <g stroke="url(#mkBrand)" strokeWidth="4" strokeLinecap="round" fill="none">
+                  <path d="M244 96 Q260 124 250 154" opacity="0.9" />
+                  <path d="M264 78 Q290 120 274 166" opacity="0.6" />
+                </g>
+
+                {/* Floating social cards */}
+                <g>
+                  <rect x="40" y="36" width="96" height="40" rx="14" className="fill-white dark:fill-slate-800" stroke="#EDE9FE" />
+                  <path d="M62 52 a6 6 0 0 1 10 -4 a6 6 0 0 1 10 4 q0 7 -10 13 q-10 -6 -10 -13z" fill="#EC4899" />
+                  <rect x="90" y="48" width="34" height="6" rx="3" fill="#7C3AED" fillOpacity="0.35" />
+                  <rect x="90" y="59" width="22" height="6" rx="3" fill="#7C3AED" fillOpacity="0.2" />
+                </g>
+                <g>
+                  <rect x="24" y="210" width="104" height="42" rx="14" className="fill-white dark:fill-slate-800" stroke="#FCE7F3" />
+                  <circle cx="48" cy="231" r="11" fill="#7C3AED" />
+                  <path d="M43 232 l3 3 l7 -7" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <rect x="66" y="223" width="48" height="6" rx="3" fill="#EC4899" fillOpacity="0.35" />
+                  <rect x="66" y="235" width="30" height="6" rx="3" fill="#EC4899" fillOpacity="0.2" />
+                </g>
+
+                {/* Target */}
+                <g transform="translate(284 206)">
+                  <circle r="30" className="fill-white dark:fill-slate-800" stroke="#EC4899" strokeWidth="3" />
+                  <circle r="19" fill="none" stroke="#7C3AED" strokeWidth="3" />
+                  <circle r="8" fill="#F59E0B" />
+                  <path d="M4 -4 L30 -30" stroke="#4C1D95" strokeWidth="3" strokeLinecap="round" />
+                  <path d="M26 -34 L34 -34 L34 -26" stroke="#4C1D95" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                </g>
+
+                {/* Sparkles */}
+                <g fill="#F59E0B">
+                  <path d="M210 30 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4z" />
+                  <path d="M470 30 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3z" fill="#EC4899" />
+                  <path d="M170 236 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3z" fill="#7C3AED" />
+                </g>
               </svg>
 
               <div className="grid grid-cols-3 gap-1.5 sm:gap-3 pt-2 text-center">
@@ -124,20 +164,6 @@ export function About() {
                     </span>
                   </div>
                 ))}
-              </div>
-            </div>
-
-            <div className="flex items-center gap-4 p-4 rounded-2xl bg-gradient-to-r from-purple-50 via-pink-50/50 to-amber-50/40 dark:from-purple-500/10 dark:via-pink-500/5 dark:to-amber-500/5 border border-purple-100 dark:border-purple-500/20">
-              <span className="material-symbols-outlined text-purple-600 dark:text-purple-400 text-3xl" aria-hidden="true">
-                verified_user
-              </span>
-              <div className="flex flex-col">
-                <span className="font-heading font-bold text-slate-900 dark:text-white text-sm sm:text-base">
-                  {t("panel.footerTitle")}
-                </span>
-                <span className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
-                  {t("panel.footerBody")}
-                </span>
               </div>
             </div>
           </div>

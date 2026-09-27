@@ -4,13 +4,14 @@ import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
 import { MobileNav } from "./MobileNav";
+import { DesktopNav } from "./DesktopNav";
 
 export function Header() {
   const t = useTranslations("nav");
   const tHeader = useTranslations("header");
 
   const navLinks = [
-    { href: "#home", label: t("home"), current: true },
+    { href: "#home", label: t("home") },
     { href: "#about", label: t("about") },
     { href: "#services", label: t("services") },
     { href: "#lead-form", label: t("contact") },
@@ -40,22 +41,7 @@ export function Header() {
           </div>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 bg-slate-50/90 dark:bg-slate-900/80 border border-slate-200/60 dark:border-slate-800 rounded-full shadow-inner">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              aria-current={link.current ? "page" : undefined}
-              className={
-                link.current
-                  ? "px-4 py-1.5 rounded-full text-sm font-semibold text-brand-purple dark:text-purple-300 bg-white dark:bg-slate-700 shadow-sm transition-all"
-                  : "px-4 py-1.5 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-white/60 dark:hover:bg-slate-800 transition-all"
-              }
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
+        <DesktopNav links={navLinks} />
 
         <div className="flex items-center gap-2 sm:gap-3.5 shrink-0">
           <LanguageSwitcher />
